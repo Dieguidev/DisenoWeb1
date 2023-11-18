@@ -256,10 +256,19 @@ nav {
   margin: 0;
 }
 
+@media (min-width: 640px) {
+  .footer ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+}
+
 .footer ul li a {
   text-decoration: none;
   color: var(--text-input-field);
 }
-
 
 
