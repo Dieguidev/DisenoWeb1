@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vet</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <img src="./icons/icon_menu_hamburguer.svg" alt="menu" class="menu" />
+
+        <div class="navbar-left">
+          <img src="./assets/logo.png" alt="logo" class="logo" />
+
+          <ul>
+            <li>
+              <a href="#Alimentos">Alimentos</a>
+            </li>
+            <li>
+              <a href="#Juguetes">Juguetes</a>
+            </li>
+            <li>
+              <a href="#Limpieza">Limpieza</a>
+            </li>
+            <li>
+              <a href="#Antipulgas">Antipulgas</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="navbar-right">
+          <ul>
+            <li class="navbar-email">vet@example.com</li>
+            <li class="navbar-shopping-cart">
+              <img src="./icons/cart.svg" alt="shopping cart" />
+              <div>2</div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="carousel" id="carousel">
+        <input type="radio" id="slide1" name="slides" checked />
+        <input type="radio" id="slide2" name="slides" />
+        <input type="radio" id="slide3" name="slides" />
+
+        <div class="carousel-inner">
+          <figure class="carousel-item">
+            <img
+              src="https://wongfood.vtexassets.com/arquivos/ids/371285-1200-auto?v=637312320689700000&width=1200&height=auto&aspect=true"
+              alt="Imagen 1"
+            />
+          </figure>
+          <figure class="carousel-item">
+            <img
+              src="https://wongfood.vtexassets.com/arquivos/ids/526030-1200-auto?v=637814100349000000&width=1200&height=auto&aspect=true"
+              alt="Imagen 2"
+            />
+          </figure>
+          <figure class="carousel-item">
+            <img
+              src="https://wongfood.vtexassets.com/arquivos/ids/371279-1200-auto?v=637312320666770000&width=1200&height=auto&aspect=true"
+              alt="Imagen 3"
+            />
+          </figure>
+          <!-- Agrega más elementos según sea necesario -->
+        </div>
+
+        <label class="carousel-prev" for="slide1">&#10094;</label>
+        <label class="carousel-next" for="slide2">&#10095;</label>
+      </section>
+
+      <section class="main-container">
+        <h2 class="subtitle" id="Alimentos">Alimentos</h2>
+        <div class="cards-container">
+          <div class="product-card">
+            <img
+              src="https://wongfood.vtexassets.com/arquivos/ids/371285-1200-auto?v=637312320689700000&width=1200&height=auto&aspect=true"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 89.90</p>
+                <p>Ricocat Adulto Bolsa 9 Kg</p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://wongfood.vtexassets.com/arquivos/ids/371279-1200-auto?v=637312320666770000&width=1200&height=auto&aspect=true"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 14.90</p>
+                <p>Ricocat Adultos Bolsa 1 Kg</p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://wongfood.vtexassets.com/arquivos/ids/526030-1200-auto?v=637814100349000000&width=1200&height=auto&aspect=true"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 22.90</p>
+                <p>Alimento para Gatos Friskies Original 1Kg</p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://wongfood.vtexassets.com/arquivos/ids/371308-1200-auto?v=637312320818370000&width=1200&height=auto&aspect=true"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 13.00</p>
+                <p>
+                  Supercat Alimento para Gatos Adultos Sardina, Atún y Trucha
+                  Bolsa 1 Kg
+                </p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://wongfood.vtexassets.com/arquivos/ids/392882-1200-auto?v=637405520497530000&width=1200&height=auto&aspect=true"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 16.90</p>
+                <p>
+                  Mimaskot Alimento Seco para Gatos Adultos Sabor Salmón, Atún y
+                  Sardina Bolsa 1 Kg
+                </p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://wongfood.vtexassets.com/arquivos/ids/514712-1200-auto?v=637787528041730000&width=1200&height=auto&aspect=true"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 23.90</p>
+                <p>Alimento para Gatos Purina One Pollo y Salmón 500g</p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-container">
+        <h2 class="subtitle" id="Juguetes">Juguetes</h2>
+        <div class="cards-container">
+          <div class="product-card">
+            <img
+              src="https://www.superpet.pe/on/demandware.static/-/Sites-SuperPet-master-catalog/default/dw7d8633f7/images/mpets-loki-eco-dog-green-white-juguete.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 39.90</p>
+                <p>Juguete ecológico modelo "Loki"</p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://www.superpet.pe/on/demandware.static/-/Sites-SuperPet-master-catalog/default/dw741d4c4d/images/-perro-mpets-metis-juguete-forma-de-hueso-10618803.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 36.90</p>
+                <p>Hueso de juguete para perros</p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://www.superpet.pe/on/demandware.static/-/Sites-SuperPet-master-catalog/default/dw6a25d190/images/thor-eco-dog-toys.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 39.90</p>
+                <p>Juguete ecológico modelo "Thor"</p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://www.superpet.pe/on/demandware.static/-/Sites-SuperPet-master-catalog/default/dw1007e320/images/juguete-eco-tugo.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 24.90</p>
+                <p>Juguete ecológico para la diversión de perros</p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://www.superpet.pe/on/demandware.static/-/Sites-SuperPet-master-catalog/default/dw954b1bf7/images/dizzy-cat-toy.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 59.90</p>
+                <p>Juguete interactivo modelo "Dizzy"</p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://www.superpet.pe/on/demandware.static/-/Sites-SuperPet-master-catalog/default/dwb525cecf/images/mpets-leif-eco-dog-green-white-juguete.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 39.90</p>
+                <p>Juguete ecológico modelo "Leif"</p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-container">
+        <h2 class="subtitle" id="Limpieza">Limpieza</h2>
+        <div class="cards-container">
+          <div class="product-card">
+            <img
+              src="https://www.superpet.pe/on/demandware.static/-/Sites-SuperPet-master-catalog/default/dwc7c46764/images/gabrica-dental-fresh-dog-whitening-limpieza-bucal-blanqueador.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 90.90</p>
+                <p>Enjague bucal seguro para perros con blanqueador</p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://www.superpet.pe/on/demandware.static/-/Sites-SuperPet-master-catalog/default/dw8cd7a64b/images/pet-care-surtidor-de-bolsas-de-limpieza-para-mascotas-1-rollo-de-10-bolsas.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 8.90</p>
+                <p>
+                  Surtidor para bolsas de limpieza de desperdicios de mascotas
+                </p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://www.superpet.pe/on/demandware.static/-/Sites-SuperPet-master-catalog/default/dwdcd1f6dd/images/-klinkat-arena-para-gatos.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 72.90</p>
+                <p>Arena Para Gato Klinkat Arena para Gatos 20 KG</p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://www.superpet.pe/on/demandware.static/-/Sites-SuperPet-master-catalog/default/dw8f425378/images/HC000486_m.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 89.90</p>
+                <p>Arena Para Gato Tkpet Arena Aglomerante</p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://www.superpet.pe/on/demandware.static/-/Sites-SuperPet-master-catalog/default/dw33a7f62f/images/Garfield%20Premium%20Arena%201.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 34.90</p>
+                <p>Garfield Premium Arena</p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://www.superpet.pe/on/demandware.static/-/Sites-SuperPet-master-catalog/default/dwb7050de2/images/cats-best-oko-plus.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 70.90</p>
+                <p>Arena Para Gato Cats Best Original</p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-container">
+        <h2 class="subtitle" id="Antipulgas">Antipulgas</h2>
+        <div class="cards-container">
+          <div class="product-card">
+            <img
+              src="https://www.superpet.pe/on/demandware.static/-/Sites-SuperPet-master-catalog/default/dw38be64fe/images/broadline-cat-large-jeringa-25-74-kg.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 61.90</p>
+                <p>Broadline Cat Large Pipeta (2.5-7.4 Kg)</p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://www.superpet.pe/on/demandware.static/-/Sites-SuperPet-master-catalog/default/dw5a0e6394/images/Antiparasitario%20Externo%20Imidacloprid%20FF000562.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 19.90</p>
+                <p>
+                  P.I. Gatos De 4 A 9kg (Antiparasitario Externo Imidacloprid)
+                </p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://www.superpet.pe/on/demandware.static/-/Sites-SuperPet-master-catalog/default/dw53c7cfd4/images/pip-plus-para-perros-hasta-4-kg-antiparasitario-externo.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 18.90</p>
+                <p>
+                  Zoovet PIP Plus Hasta 4Kg ( Imidacloprid + Permetrina) 1
+                  Pipeta
+                </p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://www.superpet.pe/on/demandware.static/-/Sites-SuperPet-master-catalog/default/dw69baef2d/images/spinomax-duo-18-a-36-kg-antiparasitario-externo-oral-a-base-de-spinosad-lufenuron.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 49.90</p>
+                <p>
+                  Spinomax Duo 18 A 36 Kg (Antiparasitario Externo Oral A Base
+                  De Spinosad + Lufenurón)
+                </p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://www.superpet.pe/on/demandware.static/-/Sites-SuperPet-master-catalog/default/dw61928067/images/spinomax-duo-36-a-70-kg-antiparasitario-externo-oral-a-base-de-spinosad-lufenuron.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 83.90</p>
+                <p>
+                  Spinomax Duo 36 A 70 Kg (Antiparasitario Externo Oral A Base
+                  De Spinosad + Lufenurón)
+                </p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img
+              src="https://www.superpet.pe/on/demandware.static/-/Sites-SuperPet-master-catalog/default/dwd807a4a5/images/pip-plus-para-perros-hasta-25kg-antiparasitario-externo.jpg"
+              alt=""
+            />
+            <div class="product-info">
+              <div>
+                <p>S/ 22.90</p>
+                <p>
+                  Zoovet PIP Plus De 10 A 25Kg ( Imidacloprid + Permetrina) 1
+                  Pipeta 3Ml
+                </p>
+              </div>
+              <figure>
+                <img src="./icons/add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <ul>
+        <li><a href="#carousel">Favoritos</a></li>
+        <li><a href="#Alimentos"">Alimentos</a></li>
+        <li><a href="#Limpieza">Limpieza</a></li>
+        <li><a href="#Antipulgas">Antipulgas</a></li>
+        <li><a href="https://github.com/Dieguidev" target="_blank">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/dieguidev/" target="_blank">Linkedin</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
