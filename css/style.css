@@ -178,7 +178,7 @@ nav {
 
 .carousel {
   overflow: hidden;
-  width: 300px; /* Ajusta el ancho del carrusel según tus necesidades */
+  width: 300px; 
   margin: 20px auto;
 }
 
@@ -188,7 +188,7 @@ nav {
 }
 
 .carousel-item {
-  flex: 0 0 100%; /* Ancho de cada imagen */
+  flex: 0 0 100%; 
 }
 
 .carousel-item img {
@@ -201,7 +201,7 @@ nav {
 }
 
 .carousel input[type="radio"]:checked + .carousel-inner {
-  transform: translateX(0); /* Ajusta según el número de imágenes */
+  transform: translateX(0); 
 }
 
 /* Flechas de navegación */
